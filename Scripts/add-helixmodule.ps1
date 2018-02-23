@@ -21,11 +21,11 @@
 #>
 
 # Some hardcoded values
-$featureModuleType = "Feature"                                      # Used in Add-Feature and Create-Config.
-$foundationModuleType = "Foundation"                                # Used in Add-Foundation and Create-Config.
-$addHelixModuleConfigFile = "add-helix-module-configuration.json"   # Used in Add-Module.
-$csprojExtension = ".csproj"                                        # Used in Add-Projects
-$scprojExtension = ".scproj"										# Used in Add-Projects
+$featureModuleType = "Feature"                                      	# Used in Add-Feature and Create-Config.
+$foundationModuleType = "Foundation"                                	# Used in Add-Foundation and Create-Config.
+$addHelixModuleConfigFile = "add-helix-module-configuration.json.user"  # Used in Add-Module.
+$csprojExtension = ".csproj"                                        	# Used in Add-Projects
+$scprojExtension = ".scproj"						# Used in Add-Projects
 
 <#
     .SYNOPSIS
