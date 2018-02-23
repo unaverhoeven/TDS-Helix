@@ -15,3 +15,4 @@ It saves time, by doing everything you'd have to do manually, reduces possibilit
 
 ## Doc:
 Detailed explanation can be found here https://unaverhoeven.ghost.io/2018/02/02/sitecore-helix-with-tds-create-a-new-module-with-powershell/
+
