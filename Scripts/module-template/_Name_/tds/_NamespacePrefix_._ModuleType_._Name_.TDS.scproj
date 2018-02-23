@@ -22,6 +22,9 @@
     <ManageRoles>False</ManageRoles>
     <SitecoreDatabase>master</SitecoreDatabase>
     <AssemblyStatus>Exclude</AssemblyStatus>
+    <SourceWebVirtualPath>/_NamespacePrefix_._ModuleType_._Name_.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{_ProjectGuidLower_}|src\_ModuleType_\_Name_\code\_NamespacePrefix_._ModuleType_._Name_.csproj</SourceWebProject>
+    <SourceWebPhysicalPath>..\code</SourceWebPhysicalPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,6 +45,13 @@
     </AssemblyAttributes>
   </ItemGroup>
  
+  <ItemGroup>
+    <ProjectReference Include="..\code\_NamespacePrefix_._ModuleType_._Name_.csproj">
+      <Project>{_ProjectGuidLower_}</Project>
+      <Name>_NamespacePrefix_._ModuleType_._Name_</Name>
+    </ProjectReference>
+  </ItemGroup>
+  
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
