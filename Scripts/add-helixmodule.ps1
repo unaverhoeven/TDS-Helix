@@ -79,8 +79,10 @@ function Create-Config
         Add-Member -InputObject $config -Name ModuleName -Value $ModuleName -MemberType NoteProperty
         
         # GUIDs are needed for the VS projects
-        $projectGuid = [guid]::NewGuid().toString().toUpper()
-        Add-Member -InputObject $config -Name ProjectGuid -Value $projectGuid -MemberType NoteProperty
+        $projectGuidLower = [guid]::NewGuid().toString()
+        Add-Member -InputObject $config -Name ProjectGuidLower -Value $projectGuidLower -MemberType NoteProperty
+        $projectGuid = $projectGuidLower.toUpper()
+        Add-Member -InputObject $config -Name ProjectGuid -Value $ProjectGuid -MemberType NoteProperty
         $testProjectGuid = [guid]::NewGuid().toString().toUpper()
         Add-Member -InputObject $config -Name TestProjectGuid -Value $testProjectGuid -MemberType NoteProperty
         
