@@ -1,5 +1,6 @@
-# Purpose
-This is a custom PS module for scaffolding new module projects. 
+# TDS-Helix
+## Purpose
+This is a custom PS module for scaffolding new module projects for Helix architecture.
 
 It saves time, by doing everything you'd have to do manually, reduces possibilities of errors and ensures consistency in the file structure between modules
 
@@ -11,3 +12,7 @@ It saves time, by doing everything you'd have to do manually, reduces possibilit
 # Usage
 - Open Package Manager console
 - Run the code as `Add-Feature FEATURE_NAME` or `Add-Foundation FOUNDATION_NAME` (i.e. `Add-Feature Articles`)
+
+## Doc:
+Detailed explanation can be found here https://unaverhoeven.ghost.io/2018/02/02/sitecore-helix-with-tds-create-a-new-module-with-powershell/
+
